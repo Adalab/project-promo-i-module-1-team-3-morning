@@ -19,6 +19,7 @@ html {
   justify-content: center;
   align-items: center;
   margin: 0 15px;
+  text-align: center;
 }
 
 header {
@@ -210,7 +211,6 @@ header {
   height: 45px;
   font: 20px "OpenSans";
   line-height: 2.25;
-  text-align: center;
   color: #000000;
 }
 /*descripcion*/
@@ -219,21 +219,18 @@ header {
   margin: 0px;
   font: "OpenSans";
   line-height: 1.5;
-  text-align: center;
   color: #54585a;
 }
 /*iconos*/
 .container-simbolos-about {
-  margin: 15px 0px 41px;
+  margin: 15px 0 41px;
   padding: 0px;
   list-style: none;
   color: #099d8d;
   width: 124px;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: space-between;
   list-style-type: none;
 }
 
@@ -312,24 +309,24 @@ ul {
     width: 12.813rem;
     height: 12.813rem;
   }
-  .candidate {
-    margin-bottom: 3.75rem;
-  }
-
-  /* CANDIDATAS A LA IZQUIERDA */
 
   .candidate:nth-child(even) {
-    background: pink;
-    align-items: flex-start;
+    margin-bottom: 3.75rem;
+    margin-left: 2.813rem;
+    margin-right: 2.813rem;
+    display: flex;
+    flex-direction: row;
     text-align: left;
   }
-
   .candidate:nth-child(odd) {
-    background: coral;
-    align-items: flex-end;
+    margin-bottom: 3.75rem;
+    margin-left: 2.813rem;
+    margin-right: 2.813rem;
+    display: flex;
+    flex-direction: row-reverse;
     text-align: right;
   }
-
-  .candidate-description {
-    text-align: left;
+  .candidate-info-container {
+    margin: 0 30px;
   }
+}
