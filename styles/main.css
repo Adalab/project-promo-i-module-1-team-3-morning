@@ -10,7 +10,6 @@ html {
   justify-content: center;
   align-items: center;
   margin: 0 15px;
-  /* background-color: blueviolet; */
 }
 
 .candidate {
@@ -247,62 +246,64 @@ i {
 
 .mark {
   margin: 0;
+  margin-top: 50px;
   width: 100%;
   color: rgb(184, 184, 185);
 }
 
+/* FOOTER */
+
 .footer {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin: 30px 74px 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .copyright-footer {
-  margin-top: 1.875rem;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: capitalize;
   color: #b8b8b9;
   font-size: 0.875rem;
   text-align: center;
 }
 
 .nav-footer {
-  width: 100%;
   text-align: center;
   padding-left: 0px;
 }
 
-.list-footer {
-  margin: 0px;
-  list-style: none;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.nav-footer ul {
+  /*width: 114px;*/
+  height: 60px;
+  margin: 0;
+}
+
+.links-footer {
   text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(84, 88, 90, 0.75);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul {
   padding: 0px;
 }
 
-.image-footer {
-  display: flex;
+.logo-footer {
   width: 115.9px;
   height: 45px;
+  margin-top: 30px;
+  display: flex;
   text-align: center;
 }
 
-.image-footer img {
+.logo-footer img {
   width: 100%;
   height: 100%;
   margin-bottom: 45px;
-}
-
-.links-footer {
-  text-decoration: none;
-  color: #54585a;
-  font-size: 0.875rem;
-  font-family: "Open Sans", sans-serif;
 }
