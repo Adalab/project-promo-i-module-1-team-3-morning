@@ -14,6 +14,7 @@ html {
 }
 
 .candidate {
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -215,6 +216,8 @@ header {
 }
 /*descripcion*/
 .candidate-description {
+  width: 18.125rem;
+  height: 12.5rem;
   padding: 0px;
   margin: 0px;
   font: "OpenSans";
@@ -227,7 +230,8 @@ header {
   padding: 0px;
   list-style: none;
   color: #099d8d;
-  width: 124px;
+  width: 7.75rem;
+  height: 1.875rem;
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
@@ -305,28 +309,79 @@ ul {
 /* MEDIAQUERY ADALABERS*/
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
-  .imagen-about {
-    width: 12.813rem;
-    height: 12.813rem;
+  .candidate {
+    & {
+      padding: 0px;
+      margin: 0px;
+    }
+    .candidate-description {
+      width: 27.688rem;
+      height: 7.625rem;
+    }
+    .candidate-info-container {
+      margin: 0 30px;
+    }
+    &:nth-child(even) {
+      margin-bottom: 3.75rem;
+      margin-left: 2.75rem;
+      margin-right: 2.75rem;
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
+    &:nth-child(odd) {
+      margin-bottom: 3.75rem;
+      margin-left: 2.75rem;
+      margin-right: 2.75rem;
+      display: flex;
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+    .imagen-about {
+      width: 12.813rem;
+      height: 12.813rem;
+    }
   }
+}
 
-  .candidate:nth-child(even) {
-    margin-bottom: 3.75rem;
-    margin-left: 2.813rem;
-    margin-right: 2.813rem;
-    display: flex;
-    flex-direction: row;
-    text-align: left;
+@media all and (min-width: 1201px) {
+  * {
+    margin: 0px;
+    padding: 0px;
   }
-  .candidate:nth-child(odd) {
-    margin-bottom: 3.75rem;
-    margin-left: 2.813rem;
-    margin-right: 2.813rem;
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
+  .container-titulo-about {
+    width: 12.063rem;
+    margin: 2.813rem 31.438rem 2.563rem;
   }
-  .candidate-info-container {
-    margin: 0 30px;
+  .candidate {
+    & {
+      padding: 0px;
+      width: min-content;
+      height: 17.375rem;
+      margin-bottom: 3.75rem;
+      margin-left: 8.625rem;
+      margin-right: 8.625rem;
+    }
+    .candidate-description {
+      width: 27.438rem;
+      height: 7.813rem;
+    }
+    .candidate-info-container {
+      margin: 0 30px;
+    }
+    &:nth-child(even) {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+    }
+    &:nth-child(odd) {
+      display: flex;
+      flex-direction: row-reverse;
+      text-align: right;
+    }
+    .imagen-about {
+      width: 17.375rem;
+      height: 17.375rem;
+    }
   }
 }
