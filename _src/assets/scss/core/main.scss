@@ -5,22 +5,6 @@ html {
   color: rgb(255, 255, 255);
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-.style-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 15px;
-}
-
 .candidate {
   width: 100%;
   display: inline-flex;
@@ -111,63 +95,6 @@ header {
 .hero-text h2 {
   font-family: "Rubik", "Open Sans", sans-serif;
   text-align: center;
-  overflow: hidden;
-}
-
-.container-texto {
-  width: 100%;
-  height: 2.813rem;
-  font: 24px "Rubik", sans-serif;
-  line-height: 1.88;
-  text-align: center;
-  color: rgb(20, 217, 196);
-}
-
-.container-equipo {
-  width: 100%;
-  font-family: "OpenSans", sans-serif;
-  line-height: 1.5;
-  text-align: center;
-  color: #54585a;
-}
-
-.square {
-  width: 30px;
-  height: 30px;
-  border: hidden;
-  margin: initial;
-  background-color: rgb(255, 255, 255);
-  top: 0%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.section-2 {
-  padding: 20px;
-  position: relative;
-  background-color: rgba(184, 184, 185, 0.8);
-  display: flex;
-  flex-direction: column;
-}
-
-.section-2-title {
-  width: 100%;
-  margin: 5px;
-  box-sizing: border-box;
-  font: 22px "Rubik", "sans-serif";
-  line-height: 2.05;
-  text-align: center;
-  color: #099d8d;
-}
-
-.section-2-text {
-  width: 100%;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  text-align: center;
-  color: #54585a;
   overflow: hidden;
 }
 
@@ -304,7 +231,6 @@ ul {
   height: 100%;
   margin-bottom: 45px;
 }
-
 @import "_go-about";
 @import "_go-team";
 @import "_sandw";

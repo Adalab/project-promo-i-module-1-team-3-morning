@@ -1,5 +1,34 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
 .go-team {
   display: block;
   position: relative;
   top: 60px;
+}
+
+.style-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.container-texto {
+  width: 100%;
+  height: 2.813rem;
+  font: 24px "Rubik", sans-serif;
+  line-height: 1.88;
+  text-align: center;
+  color: rgb(20, 217, 196);
+}
+
+.container-equipo {
+  width: 100%;
+  font-family: "OpenSans", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
 }
