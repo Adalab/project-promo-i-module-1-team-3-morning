@@ -49,7 +49,7 @@ header {
 }
 
 .hero-image {
-  background: url("../images/hero-image.png") 50% no-repeat;
+  background: url("../../images/hero-image.jpeg") 50% no-repeat;
   background-size: cover;
   height: 421px;
   display: flex;
@@ -77,10 +77,7 @@ header {
 }
 @media all and (min-width: 768px) {
   .menu {
-    // position: sticky;
     height: 60px;
-    // top: 0;
-    // z-index: 1;
     display: flex;
     background-color: rgba(9, 157, 141, 0.95);
     justify-content: space-between;
@@ -93,11 +90,6 @@ header {
     justify-content: flex-start;
   }
 
-  // .main-title {
-  //   height: 30px;
-  //   font: 1rem "Rubik", "Open Sans", sans-serif;
-  //   color: rgb(255, 255, 255);
-  // }
   .nav {
     padding-right: 45px;
   }
@@ -107,11 +99,7 @@ header {
   }
 
   .hero-image {
-    // background: url("../images/hero-image.png") 50% no-repeat;
-    // background-size: cover;
     background-position: 0% 15%;
-    // height: 421px;
-    // display: flex;
     justify-content: flex-start;
     align-items: flex-end;
   }
@@ -119,14 +107,10 @@ header {
   .hero-text {
     width: 441px;
     height: 80px;
-    // box-sizing: border-box;
     margin-left: 46px;
     margin-right: 281px;
     padding: 15px 30px;
-    // position: relative;
     top: 0px;
-    // color: black;
-    // background-color: rgb(255, 255, 255);
     opacity: 0.8;
     display: flex;
     justify-content: flex-start;
@@ -139,38 +123,18 @@ header {
 }
 
 @media all and (min-width: 1200px) {
-  // .menu {
-  //   position: sticky;
-  //   top: 0;
-  //   width: 100%;
-  //   z-index: 1;
-  // }
-
   .header {
     height: 60px;
     padding-left: 142px;
   }
-
-  // .main-title {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   text-align: center;
-  //   color: rgb(255, 255, 255);
-  // }
   .nav {
     padding-right: 138px;
   }
-
   .nav-menu {
     width: 295px;
-    // height: 60px;
-    // margin: 0;
   }
 
   .hero-image {
-    // background: url("../images/hero-image.png") 50% no-repeat;
-    // background-size: cover;
     background-position: 0% 15%;
     height: 550px;
   }
@@ -178,14 +142,10 @@ header {
   .hero-text {
     width: 574px;
     height: 90px;
-    // box-sizing: border-box;
     margin-left: 138px;
     margin-right: 488px;
     padding: 15px 30px;
-    // position: relative;
     top: 0px;
-    // color: black;
-    // background-color: rgb(255, 255, 255);
     opacity: 0.8;
   }
 
