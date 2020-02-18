@@ -4,13 +4,21 @@ html {
   top: 0%;
   color: rgb(255, 255, 255);
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .style-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 15px;
-  /* background-color: blueviolet; */
+  margin: 0px 15px;
 }
 
 .candidate {
@@ -194,10 +202,12 @@ header {
   text-align: center;
   color: #099d8d;
 }
+
 /*imagen*/
 .container-imagen-about {
   text-align: center;
 }
+
 .imagen-about {
   width: 180px;
   height: 180px;
@@ -214,6 +224,7 @@ header {
   line-height: 2.25;
   color: #000000;
 }
+
 /*descripcion*/
 .candidate-description {
   width: 18.125rem;
@@ -224,6 +235,7 @@ header {
   line-height: 1.5;
   color: #54585a;
 }
+
 /*iconos*/
 .container-simbolos-about {
   margin: 15px 0 41px;
