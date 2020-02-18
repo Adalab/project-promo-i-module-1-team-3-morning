@@ -6,7 +6,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-color: rgba(9, 157, 141, 0.95);
 }
 
@@ -32,15 +31,18 @@ header {
   align-items: center;
   list-style-type: none;
   background-color: rgba(20, 217, 196, 0.95);
+
+  .list {
+    a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      font: 15px "Rubik", "Open Sans", sans-serif;
+      color: rgb(255, 255, 255);
+    }
+  }
 }
 
-.list a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  font: 15px "Rubik", "Open Sans", sans-serif;
-  color: rgb(255, 255, 255);
-}
 .menu {
   position: sticky;
   top: 0;
@@ -66,15 +68,16 @@ header {
   position: relative;
   color: black;
   background-color: rgb(255, 255, 255);
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    line-height: 25px;
+    text-align: center;
+    overflow: hidden;
+  }
 }
 
-.hero-text h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  line-height: 25px;
-  text-align: center;
-  overflow: hidden;
-}
 @media all and (min-width: 768px) {
   .menu {
     height: 60px;
@@ -115,10 +118,9 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-  }
-
-  .hero-text h2 {
-    text-align: start;
+    h2 {
+      text-align: start;
+    }
   }
 }
 
@@ -147,12 +149,11 @@ header {
     padding: 15px 30px;
     top: 0px;
     opacity: 0.8;
-  }
-
-  .hero-text h2 {
-    font-size: 1.5rem;
-    line-height: 30px;
-    text-align: start;
-    overflow: hidden;
+    h2 {
+      font-size: 1.5rem;
+      line-height: 30px;
+      text-align: start;
+      overflow: hidden;
+    }
   }
 }
