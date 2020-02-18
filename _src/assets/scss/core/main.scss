@@ -74,12 +74,6 @@ header {
   color: rgb(255, 255, 255);
 }
 
-.go-team {
-  display: block;
-  position: relative;
-  top: 60px;
-}
-
 .go-about {
   display: flex;
   height: min-content;
@@ -311,11 +305,6 @@ ul {
   margin-bottom: 45px;
 }
 
-.links-footer {
-  text-decoration: none;
-  color: #54585a;
-  font-size: 0.875rem;
-  font-family: "Open Sans", sans-serif;
-}
-
 @import "_go-about";
+@import "_go-team";
+@import "_sandw";
