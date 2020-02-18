@@ -2,6 +2,16 @@
   text-transform: capitalize;
 }
 
+.style-box {
+  position: relative;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+}
+
 .section-2 {
   padding: 20px;
   position: relative;
