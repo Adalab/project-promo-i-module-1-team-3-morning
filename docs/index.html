@@ -10,60 +10,40 @@
         crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
         rel="stylesheet" />
-        <link rel="stylesheet" href="./assets/css/core/main.css" />
+        <link rel="stylesheet" href="./assets/css/main.css" />
         <title>THE COOL CODERS</title>
     </head>
     
     <body>
-        <!DOCTYPE html>
-        <html lang="es">
-            
-            <head>
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-                crossorigin="anonymous" />
-                <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
-                rel="stylesheet" />
-                <link rel="stylesheet" href="./assets/css/core/main.css" />
-                <title>THE COOL CODERS</title>
-            </head>
-            
-            <body>
-                <div class="menu">
-                    <header class="header">
-                         <h1 class="main-title">THE COOL CODERS</h1>
+        <div class="menu">
+            <header class="header">
+                 <h1 class="main-title">THE COOL CODERS</h1>
 
-                    </header>
-                    <nav>
-                        <ul class="nav-menu">
-                            <li class="list"><a href="#go_team">EQUIPO</a>
+            </header>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="list"><a href="#go_team">EQUIPO</a>
 
-                            </li>
-                            <li class="list"><a href="#go_about">QUIÉNES SOMOS</a>
+                    </li>
+                    <li class="list"><a href="#go_about">QUIENES SOMOS</a>
 
-                            </li>
-                            <li class="list"><a href="#">CONTACTO</a>
+                    </li>
+                    <li class="list"><a href="#">CONTACTO</a>
 
-                            </li>
-                        </ul>
-                    </nav>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section class="hero-image">
+                <div class="hero-text">
+                     <h2>
+        Lo que te hace diferente ahora, te hará destacar más adelante
+      </h2>
+
                 </div>
-                <main>
-                    <section class="hero-image">
-                        <div class="hero-text">
-                             <h2>
-            "Lo que te hace diferente ahora, te hará destacar más adelante"
-          </h2>
-
-                        </div>
-                    </section>
-                </main>
-            </body>
-        
-        </html>
+            </section>
+        </main>
         <section id="go_team" class="go-team">
             <div class="style-box">
                 	<h1 class="container-texto">EQUIPO</h1>
@@ -105,22 +85,22 @@
             </aside>
         </section>
         <section id="go_about" class="go-about style-box">
-            	<h1 class="container-titulo-about">QUIÉNES SOMOS</h1>
+            	<h1 class="title-about">QUIÉNES SOMOS</h1>
 
             <div class="candidate">
-                <img class="imagen-about container-imagen-about" src=./assets/images/Sara.jpg
-                alt="Imagen candidata" />
+                <img class="image-about" src=./assets/images/Sara.jpg alt="Foto de Sara Martín"
+                title="Sara Martín" />
                 <div class="candidate-info-container">
                     	<h3 class="candidate-info">
 					Sara Martín
 				</h3>
 
                     <p class="candidate-description">Gracias a mi anterior trabajo como analista de datos, cuento con experiencia
-                        en el trato directo con el cliente, gran capacidad para el trabajo en equipo,
-                        una buena dosis de paciencia y una forma de trabajar resolutiva. Mi motivación
-                        personal es emprender mi camino en el sector digital y poder comenzar mi
-                        carrera profesional como desarrolladora Front-end.</p>
-                    <ul class="container-simbolos-about">	<a href="https://twitter.com/Sara_Mgara?s=09" target="_blank">
+                        en el trato directo con el cliente, gran capacidad para el trabajo en equipo
+                        y una buena dosis de paciencia. Mi motivación personal es emprender mi
+                        camino en el sector digital y poder comenzar mi carrera profesional como
+                        desarrolladora Front-end.</p>
+                    <ul class="container-icons-about">	<a href="https://twitter.com/Sara_Mgara?s=09" target="_blank">
 						<li>
 							<i style="text-decoration: none;" class="fab fa-twitter"></i>
 						</li>
@@ -147,8 +127,8 @@
                 </div>
             </div>
             <div class="candidate">
-                <img class="imagen-about" src=./assets/images/Patricia.jpg alt="Imagen candidata"
-                />
+                <img class="image-about" src=./assets/images/Patricia.jpg alt="Foto de Patricia Martínez"
+                title="Patricia Martínez" />
                 <div class="candidate-info-container">
                     	<h3 class="candidate-info">
 					Patricia Martínez
@@ -159,7 +139,7 @@
                         los estereotipos. Disfrutona del trabajo en equipo y el aprendizaje contínuo
                         con el objetivo de enfocar la programación desde la creatividad y el sentido
                         del humor.</p>
-                    <ul class="container-simbolos-about">	<a href="https://twitter.com/includepatricia" target="_blank">
+                    <ul class="container-icons-about">	<a href="https://twitter.com/includepatricia" target="_blank">
 						<li>
 							<i class="fab fa-twitter"></i>
 						</li>
@@ -184,7 +164,7 @@
                 </div>
             </div>
             <div class="candidate">
-                <img class="imagen-about" src=./assets/images/Jesica.jpg alt="Imagen candidata"
+                <img class="image-about" src=./assets/images/Jesica.jpg alt="Imagen candidata"
                 />
                 <div class="candidate-info-container">
                     	<h3 class="candidate-info">
@@ -195,7 +175,7 @@
                         y del buen café con leche. Desde que dirigí mis pasos al sector tecnológico,
                         resuelvo puzzles en código y desentraño los misterios de la programación.</p>
                     <ul
-                    class="container-simbolos-about">	<a href="https://twitter.com/ouuhjems" target="_blank">
+                    class="container-icons-about">	<a href="https://twitter.com/ouuhjems" target="_blank">
 						<li>
 							<i class="fab fa-twitter"></i>
 						</li>
@@ -221,8 +201,8 @@
                 </div>
             </div>
             <div class="candidate">
-                <img class="imagen-about" src=./assets/images/Bea.jpg alt="Imagen candidata"
-                />
+                <img class="image-about" src=./assets/images/Bea.jpg alt="Imagen de Beatriz León"
+                title="Beatriz León" />
                 <div class="candidate-info-container">
                     	<h3 class="candidate-info">
 					Beatriz León
@@ -233,7 +213,7 @@
                         visión más amplia del mundo y adaptarme fácilmente a los cambios. Con ganas
                         de poner mis conocimientos y creatividad al servicio de proyectos innovadores
                         y sostenibles.</p>
-                    <ul class="container-simbolos-about">	<a href="https://twitter.com/mariedouceur" target="_blank">
+                    <ul class="container-icons-about">	<a href="https://twitter.com/mariedouceur" target="_blank">
 						<li>
 							<i class="fab fa-twitter"></i>
 						</li>
@@ -258,7 +238,7 @@
                 </div>
             </div>
             <div class="candidate">
-                <img class="imagen-about" src=./assets/images/Raquel.jpg alt="Imagen candidata"
+                <img class="image-about" src=./assets/images/Raquel.jpg alt="Imagen candidata"
                 />
                 <div class="candidate-info-container">
                     	<h3 class="candidate-info">
@@ -269,7 +249,7 @@
                         dinámica y creativa, con facilidad de adaptación y capacidad de trabajar
                         en equipo, con iniciativa para resolver problemas eficientemente y lograr
                         los objetivos trazados por la empresa.</p>
-                    <ul class="container-simbolos-about">	<a href="https://twitter.com/Erargami" target="_blank">
+                    <ul class="container-icons-about">	<a href="https://twitter.com/Erargami" target="_blank">
 						<li>
 							<i class="fab fa-twitter"></i>
 						</li>
