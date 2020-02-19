@@ -23,49 +23,6 @@ html {
   text-align: center;
 }
 
-header {
-  width: 100%;
-  height: 3.75rem;
-  box-sizing: border-box;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(9, 157, 141, 0.95);
-}
-
-.main-title {
-  height: 30px;
-  font: 1rem "Rubik", "Open Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.nav-menu {
-  width: 100%;
-  height: 60px;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  background-color: rgba(20, 217, 196, 0.95);
-}
-
-.list a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  font: 15px "Rubik", "Open Sans", sans-serif;
-  color: rgb(255, 255, 255);
-}
-
 .go-team {
   display: block;
   position: relative;
@@ -77,39 +34,6 @@ header {
   height: min-content;
   position: relative;
   top: 60px;
-}
-
-.menu {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.hero-image {
-  background: url("../images/hero-image.png") 50% no-repeat;
-  background-size: cover;
-  height: 421px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-text {
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0 15px;
-  padding: 15px;
-  top: 50%;
-  position: relative;
-  color: black;
-  background-color: rgb(255, 255, 255);
-}
-
-.hero-text h2 {
-  font-family: "Rubik", "Open Sans", sans-serif;
-  text-align: center;
-  overflow: hidden;
 }
 
 .container-texto {
@@ -245,5 +169,5 @@ ul {
   font-family: "Open Sans", sans-serif;
 }
 
-@import "_header";
-@import "_go-about";
+@import "core/_header";
+@import "core/_go-about";
