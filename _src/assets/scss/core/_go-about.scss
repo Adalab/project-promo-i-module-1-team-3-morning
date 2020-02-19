@@ -72,10 +72,6 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .candidate {
-    & {
-      padding: 0px;
-      margin: 0px;
-    }
     .candidate-description {
       width: 27.688rem;
     }
@@ -106,10 +102,6 @@
 }
 
 @media all and (min-width: 1200px) {
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
   .container-titulo-about {
     width: 12.063rem;
     margin: 2.813rem 31.438rem 2.563rem;
