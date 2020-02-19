@@ -7,7 +7,7 @@
   text-transform: capitalize;
 }
 
-.style-box {
+/*.style-box {
   position: relative;
   top: 60px;
   display: flex;
@@ -15,10 +15,10 @@
   justify-content: center;
   align-items: center;
   margin: 0px 15px;
-}
+}*/
 
 .section-2 {
-  padding: 20px;
+  padding: 30px 15px 45px 15px;
   position: relative;
   background-color: rgba(184, 184, 185, 0.8);
 }
@@ -36,12 +36,12 @@
 }
 
 .section-2-container-s {
+  padding-bottom: 30px;
   display: block;
 }
 
 .section-2-title {
   width: 100%;
-  margin: 5px;
   box-sizing: border-box;
   font: 22px "Rubik", "sans-serif";
   line-height: 2.05;

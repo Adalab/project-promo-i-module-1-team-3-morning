@@ -11,14 +11,15 @@
 /*.go-team {
   position: relative;
   top: 60px; /*me está afectando el hero y yo me cargaría esta etiqueta y metería distancia con los paddings abajo
-}
-*/
+}*/
+
 .style-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 15px; /*cambio el margin por padding y debería meter 30px 15px sin el position del go-team*/
+  padding: 30px 15px;
+  /*cambio el margin por padding y debería meter 30px 15px sin el position del go-team*/
 }
 
 .container-texto {
@@ -61,13 +62,13 @@
     padding-top: 45px;
     padding-bottom: 60px;
   }
-}
 
-.container-texto {
-  color: #099d8d;
-}
+  .container-texto {
+    color: #099d8d;
+  }
 
-.container-equipo {
-  opacity: 0.67;
-  padding: 15px 0px 60px 0px;
+  .container-equipo {
+    opacity: 0.67;
+    padding: 15px 0px 60px 0px;
+  }
 }
