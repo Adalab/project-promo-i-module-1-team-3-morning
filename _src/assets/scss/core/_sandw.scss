@@ -20,7 +20,7 @@
 .section-2 {
   padding: 30px 15px 45px 15px;
   position: relative;
-  background-color: rgba(184, 184, 185, 0.8);
+  background-color: $section2Background;
 }
 
 .square {
@@ -64,7 +64,39 @@
 }
 
 @media all and (min-width: 768px) {
+  .section-2 {
+    padding: 45px 45px 60px 45px;
+    position: relative;
+    display: flex;
+  }
+
+  .section-2-container-s {
+    padding-bottom: 0px;
+    padding-right: 15px;
+    display: block;
+  }
+
+  .section-2-container-w {
+    padding-left: 15px;
+    display: block;
+  }
 }
 
 @media all and (min-width: 1200px) {
+  .section-2 {
+    padding: 45px 45px 60px 45px;
+    position: relative;
+    display: flex;
+  }
+
+  .section-2-container-s {
+    padding-bottom: 0px;
+    padding-right: 22.5px;
+    display: block;
+  }
+
+  .section-2-container-w {
+    padding-left: 22.5px;
+    display: block;
+  }
 }
