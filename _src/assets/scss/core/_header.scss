@@ -19,6 +19,10 @@ header {
   a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    &:hover {
+      color: rgba(8, 97, 88, 0.95);
+      font-size: 20px;
+    }
   }
 }
 
@@ -42,6 +46,10 @@ header {
       text-align: center;
       font: 15px "Rubik", "Open Sans", sans-serif;
       color: rgb(255, 255, 255);
+      &:hover {
+        color: rgba(8, 97, 88, 0.95);
+        font-size: 18px;
+      }
     }
   }
 }
