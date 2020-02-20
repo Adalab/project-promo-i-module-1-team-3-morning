@@ -25,7 +25,7 @@
   color: $primary-color;
 }
 /* Parrafo y small */
-.p {
+.container-p {
   width: 18.125rem;
   height: 9rem;
   margin: 0.938rem auto;
@@ -37,14 +37,14 @@
   line-height: 1.5;
   letter-spacing: normal;
   color: $second-color;
-  &__small {
-    font-size: 12px;
-    /* Asterisco */
-    &--sup {
-      font-size: 12px;
-      color: $third-color;
-    }
-  }
+}
+small {
+  font-size: 12px;
+}
+/* Asterisco */
+.text-style-1 {
+  font-size: 12px;
+  color: $third-color;
 }
 /* Contenedor formulario */
 .container-formul {
@@ -133,7 +133,7 @@
     color: $primary-color;
   }
   /* Parrafo y small */
-  .p {
+  .container-p {
     width: 27.625rem;
     height: 7.5rem;
     margin: 0.938rem auto;
@@ -145,14 +145,14 @@
     line-height: 1.5;
     letter-spacing: normal;
     color: $second-color;
-    &__small {
-      font-size: 12px;
-      /* Asterisco */
-      &--sup {
-        font-size: 12px;
-        color: $third-color;
-      }
-    }
+  }
+  small {
+    font-size: 12px;
+  }
+  /* Asterisco */
+  .text-style-1 {
+    font-size: 12px;
+    color: $third-color;
   }
   /* Contenedor formulario */
   .container-formul {
@@ -242,7 +242,7 @@
     color: $primary-color;
   }
   /* Parrafo y small */
-  .p {
+  .container-p {
     width: 37.563rem;
     height: 6rem;
     margin: 0.938rem auto;
@@ -254,14 +254,14 @@
     line-height: 1.5;
     letter-spacing: normal;
     color: $second-color;
-    &__small {
-      font-size: 12px;
-      /* Asterisco */
-      &--sup {
-        font-size: 12px;
-        color: $third-color;
-      }
-    }
+  }
+  small {
+    font-size: 12px;
+  }
+  /* Asterisco */
+  .text-style-1 {
+    font-size: 12px;
+    color: $third-color;
   }
   /* Contenedor formulario */
   .container-formul {
