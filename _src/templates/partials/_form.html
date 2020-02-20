@@ -1,0 +1,93 @@
+<!-- Contenedor main -->
+<main class="main">
+  <!-- Contacto -->
+  <h1 class="contact">
+    CONTACTO
+  </h1>
+  <!-- Lema -->
+  <div class="p">
+    <p>
+      Aquí podrás introducir tu teléfono, correo electrónico y tus dudas o
+      sugerencias, que nosotras lo leeremos para ponernos en contacto lo antes
+      posible.
+    </p>
+    <br />
+    <small class="p__small">
+      Todos los campos marcados con <sup class="p__small--sup">*</sup> son
+      obligatorios.
+    </small>
+  </div>
+  <!-- Inicio del formulario -->
+  <div class="container-formul">
+    <form action="https://formspree.io/xayjwnkl" method="POST">
+      <!-- Primera fila -->
+      <!-- Nombre completo -->
+      <div class="label">
+        <label for="firstName"
+          >Nombre completo <sup class="text-style-1">*</sup>
+        </label>
+      </div>
+      <input
+        placeholder="Nombre..."
+        id="firstName"
+        type="text"
+        name="firstName"
+        required
+      />
+      <!-- Segunda fila -->
+      <div class="second-part">
+        <!-- Email -->
+        <div>
+          <div class="label">
+            <label for="Email"
+              >Email
+              <sup class="text-style-1">
+                *
+              </sup>
+            </label>
+          </div>
+          <input
+            placeholder="Correo electrónico"
+            id="Email"
+            type="email"
+            name="Email"
+            required
+          />
+        </div>
+        <!-- Teléfono -->
+        <div class="Telephone">
+          <div class="label">
+            <label for="Teléfono"
+              >Teléfono
+              <sup class="text-style-1">
+                *
+              </sup>
+            </label>
+          </div>
+          <input
+            placeholder="Ej: 123456789"
+            id="Tel"
+            type="tel"
+            name="Tel"
+            required
+          />
+        </div>
+      </div>
+      <!-- Mensaje -->
+      <div class="label">
+        <label for="Message"> Mensaje <sup class="text-style-1">*</sup> </label>
+      </div>
+      <input
+        placeholder="¿Qué necesitas?"
+        id="Message"
+        type="text"
+        name="Message"
+        required
+      />
+      <!-- Botón -->
+      <div class="Button-green">
+        <input type="submit" id="Button" value="ENVIAR" />
+      </div>
+    </form>
+  </div>
+</main>
