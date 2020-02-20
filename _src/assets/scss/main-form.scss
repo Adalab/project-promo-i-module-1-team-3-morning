@@ -1,3 +1,11 @@
-@import "core/_reset";
-@import "core/_go-about";
+body,
+html {
+  margin: 0px;
+  top: 0%;
+  color: rgb(255, 255, 255);
+}
+
+@import "core/_variables";
+@import "core/_header";
 @import "core/_form";
+@import "core/_footer-contact";
