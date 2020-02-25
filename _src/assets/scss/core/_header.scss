@@ -107,10 +107,10 @@ header {
 
   .nav {
     padding-right: 45px;
-  }
-  .nav-menu {
-    width: 321px;
-    background-color: transparent;
+    &-menu {
+      width: 321px;
+      background-color: transparent;
+    }
   }
 
   .hero-image {
@@ -143,9 +143,9 @@ header {
   }
   .nav {
     padding-right: 138px;
-  }
-  .nav-menu {
-    width: 295px;
+    &-menu {
+      width: 295px;
+    }
   }
 
   .hero-image {
