@@ -26,9 +26,10 @@
   &__copy {
     margin-top: 0;
     margin-bottom: 20px;
-    text-transform: capitalize;
     color: #b8b8b9;
+    font-family: "Open Sans";
     font-size: 0.875rem;
+    text-transform: capitalize;
     text-align: center;
 
     @media all and (min-width: 768px) {
