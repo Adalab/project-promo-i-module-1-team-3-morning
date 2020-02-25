@@ -4,7 +4,8 @@ html {
   top: 0%;
   color: rgb(255, 255, 255);
 }
-@import "core/_settings";
+
+@import "core/variables";
 @import "core/_header";
 @import "core/_go-team";
 @import "core/_sandw";
