@@ -1,11 +1,11 @@
 <!-- Contenedor main -->
 <main class="main">
   <!-- Contacto -->
-  <h1 class="contact">
+  <h1 class="form-contact">
     CONTACTO
   </h1>
   <!-- Lema -->
-  <div id="go_contact" class="container-p">
+  <div id="go_contact" class="form-container-text">
     <p>
       Aquí podrás introducir tu teléfono, correo electrónico y tus dudas o
       sugerencias, que nosotras lo leeremos para ponernos en contacto lo antes
@@ -13,18 +13,18 @@
     </p>
     <br />
     <small>
-      Todos los campos marcados con <sup class="text-style-1">*</sup> son
+      Todos los campos marcados con <sup class="form-text-style-1">*</sup> son
       obligatorios.
     </small>
   </div>
   <!-- Inicio del formulario -->
-  <div class="container-formul">
+  <div class="container-form">
     <form action="https://formspree.io/xayjwnkl" method="POST">
       <!-- Primera fila -->
       <!-- Nombre completo -->
       <div class="label">
         <label for="firstName"
-          >Nombre completo <sup class="text-style-1">*</sup>
+          >Nombre completo <sup class="form-text-style-1">*</sup>
         </label>
       </div>
       <input
@@ -41,7 +41,7 @@
           <div class="label">
             <label for="Email"
               >Email
-              <sup class="text-style-1">
+              <sup class="form-text-style-1">
                 *
               </sup>
             </label>
@@ -59,7 +59,7 @@
           <div class="label">
             <label for="Teléfono"
               >Teléfono
-              <sup class="text-style-1">
+              <sup class="form-text-style-1">
                 *
               </sup>
             </label>
@@ -75,17 +75,21 @@
       </div>
       <!-- Mensaje -->
       <div class="label">
-        <label for="Message"> Mensaje <sup class="text-style-1">*</sup> </label>
+        <label for="Message">
+          Mensaje <sup class="form-text-style-1">*</sup>
+        </label>
       </div>
-      <input
+      <textarea
         placeholder="¿Qué necesitas?"
         id="Message"
         type="text"
         name="Message"
+        cols="80"
+        rows="8"
         required
-      />
+      ></textarea>
       <!-- Botón -->
-      <div class="Button-green">
+      <div class="form-button">
         <input type="submit" id="Button" value="ENVIAR" />
       </div>
     </form>

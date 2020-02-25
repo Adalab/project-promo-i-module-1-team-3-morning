@@ -16,7 +16,14 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(255, 255, 255);
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    &:hover {
+      color: rgba(8, 97, 88, 0.95);
+      font-size: 20px;
+    }
+  }
 }
 
 .nav-menu {
@@ -39,6 +46,10 @@ header {
       text-align: center;
       font: 15px "Rubik", "Open Sans", sans-serif;
       color: rgb(255, 255, 255);
+      &:hover {
+        color: rgba(8, 97, 88, 0.95);
+        font-size: 18px;
+      }
     }
   }
 }

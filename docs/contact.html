@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
+        rel="stylesheet" />
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+        </style>
+        <link rel="stylesheet" href="./assets/css/main-form.css" />
+        <title>THE COOL CODERS</title>
+    </head>
+    
+    <body>
+        <!-- Menu -->
+        <div class="menu">
+            <header class="header">
+                 <h1 class="main-title"><a href="./index.html">THE COOL CODERS</a></h1>
+
+            </header>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="list"><a href="./index.html#go_team">EQUIPO</a>
+
+                    </li>
+                    <li class="list"><a href="./index.html#go_about">QUIÉNES SOMOS</a>
+
+                    </li>
+                    <li class="list"><a href="#go_contact">CONTACTO</a>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero-image"></section>
+        <!-- Contenedor main -->
+        <main class="main">
+            <!-- Contacto -->
+             <h1 class="form-contact">
+    CONTACTO
+  </h1>
+
+            <!-- Lema -->
+            <div id="go_contact" class="form-container-text">
+                <p>Aquí podrás introducir tu teléfono, correo electrónico y tus dudas o sugerencias,
+                    que nosotras lo leeremos para ponernos en contacto lo antes posible.</p>
+                <br
+                /> <small>
+      Todos los campos marcados con <sup class="form-text-style-1">*</sup> son
+      obligatorios.
+    </small>
+
+            </div>
+            <!-- Inicio del formulario -->
+            <div class="container-form">
+                <form action="https://formspree.io/xayjwnkl" method="POST">
+                    <!-- Primera fila -->
+                    <!-- Nombre completo -->
+                    <div class="label">
+                        <label for="firstName">Nombre completo <sup class="form-text-style-1">*</sup>
+
+                        </label>
+                    </div>
+                    <input placeholder="Nombre..." id="firstName" type="text" name="firstName"
+                    required />
+                    <!-- Segunda fila -->
+                    <div class="second-part">
+                        <!-- Email -->
+                        <div>
+                            <div class="label">
+                                <label for="Email">Email <sup class="form-text-style-1">
+                *
+              </sup>
+
+                                </label>
+                            </div>
+                            <input placeholder="Correo electrónico" id="Email" type="email" name="Email"
+                            required />
+                        </div>
+                        <!-- Teléfono -->
+                        <div class="Telephone">
+                            <div class="label">
+                                <label for="Teléfono">Teléfono <sup class="form-text-style-1">
+                *
+              </sup>
+
+                                </label>
+                            </div>
+                            <input placeholder="Ej: 123456789" id="Tel" type="tel" name="Tel" required
+                            />
+                        </div>
+                    </div>
+                    <!-- Mensaje -->
+                    <div class="label">
+                        <label for="Message">Mensaje <sup class="form-text-style-1">*</sup>
+
+                        </label>
+                    </div>
+                    <textarea placeholder="¿Qué necesitas?" id="Message" type="text" name="Message"
+                    cols="80" rows="8" required></textarea>
+                    <!-- Botón -->
+                    <div class="form-button">
+                        <input type="submit" id="Button" value="ENVIAR" />
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <hr class="mark" noshade size="1px" ; />
+            <div class="footer"> <small class="footer__copy">The cool coders © 2020</small>
+                <nav class="footer_nav">
+                    <ul class="footer_nav__item">
+                        <li class="footer_nav__list"> <a class="footer_nav__link" href="./index.html#go_team">Equipo</a>
+                        </li>
+                        <li class="footer_nav__list"> <a class="footer_nav__link" href="./index.html#go_about">Quiénes somos</a
+
+          >
+
+        </li>
+
+        <li class="footer_nav__list">
+
+          <a class="footer_nav__link" href="#go_contact">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__logo"> <a href="https://adalab.es/" target="_blank"><img src="./assets/images/logo-adalab.png" alt="Adalab"
+
+      /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
