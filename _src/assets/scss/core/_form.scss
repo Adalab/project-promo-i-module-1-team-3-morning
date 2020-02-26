@@ -8,46 +8,40 @@
   width: 100%;
   height: 50.625rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 /* CONTACTO */
-.contact {
+.form-contact {
   width: 7.938rem;
   height: 2.813rem;
   margin: 1.875rem auto;
   font-family: $primary-font;
   font-size: 1.5rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   text-align: center;
   line-height: 1.88;
-  letter-spacing: normal;
   color: $primary-color;
 }
 /* Parrafo y small */
-.container-p {
+.form-container-text {
   width: 18.125rem;
   height: 9rem;
   margin: 0.938rem auto;
   font-family: $secondary-font;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: $second-color;
 }
 small {
   font-size: 12px;
 }
 /* Asterisco */
-.text-style-1 {
+.form-text-style-1 {
   font-size: 0.75rem;
   color: $third-color;
 }
 /* Contenedor formulario */
-.container-formul {
+.container-form {
   display: inline-block;
   height: 30.625rem;
   margin-top: 5.25rem;
@@ -59,11 +53,6 @@ small {
   margin-bottom: 0.438rem;
   font-family: $secondary-font;
   font-size: 0.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: $second-color;
 }
 /* Nombre completo */
@@ -105,14 +94,19 @@ small {
   color: $button-text-color;
   background-color: $primary-color;
 }
-.Button-green {
+.form.button {
   text-align: center;
+  margin-bottom: 45px;
 }
 
 /* Versión tablet */
 @media all and (min-width: 768px) and (max-width: 1200px) {
+  /* Inicio Main */
+  .container-main {
+    height: 50.625rem;
+  }
   /* Parrafo y small */
-  .container-p {
+  .form-container-text {
     width: 27.625rem;
     height: 7.5rem;
   }
@@ -124,8 +118,15 @@ small {
   #firstName {
     width: 27.625rem;
   }
+  /* Email y teléfono */
+  .second-part {
+    display: block;
+  }
   #Email {
     width: 27.625rem;
+  }
+  .Telephone {
+    padding-left: 0;
   }
   #Tel {
     width: 27.625rem;
@@ -134,19 +135,17 @@ small {
   #Message {
     width: 27.625rem;
   }
-  /* Botón */
-  #Button {
-    width: 12.875rem;
+  .form-button {
+    text-align: right;
   }
 }
-
 @media (min-width: 1200px) {
   /* Inicio Main */
   .container-main {
     height: 47.063rem;
   }
   /* Parrafo y small */
-  .container-p {
+  .form-container-text {
     width: 37.563rem;
     height: 6rem;
   }
@@ -175,7 +174,7 @@ small {
   #Message {
     width: 37.563rem;
   }
-  .Button-green {
+  .form-button {
     text-align: right;
   }
 }

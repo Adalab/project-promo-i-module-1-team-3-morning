@@ -15,7 +15,7 @@
 
   &__mark {
     grid-row: 1 / 2;
-    color: rgb(184, 184, 185);
+    color: $border-color;
     width: 100%;
 
     @media all and (min-width: 768px) {
@@ -26,8 +26,8 @@
 
   &__copy {
     grid-row: 2 / 3;
-    color: #b8b8b9;
-    font-family: "Open Sans";
+    color: $border-color;
+    font-family: $secondary-font, sans-serif;
     font-size: 0.875rem;
     text-transform: capitalize;
     text-align: center;
@@ -36,7 +36,6 @@
       grid-row: 2 / 3;
       grid-column: 2 / 3;
       justify-self: left;
-      text-align: left;
     }
   }
 
@@ -44,7 +43,6 @@
     grid-row: 4 / 5;
     width: 115.9px;
     height: 45px;
-    text-align: center;
 
     @media all and (min-width: 768px) {
       grid-row: 2 / 3;
@@ -79,11 +77,12 @@
   &__link {
     text-decoration: none;
     text-transform: uppercase;
-    color: rgba(84, 88, 90, 0.75);
+    color: $second-color;
+    opacity: 75%;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: $secondary-font, sans-serif;
 
     @media all and (min-width: 768px) {
       line-height: 30px;
