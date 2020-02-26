@@ -18,11 +18,8 @@
   font-family: $primary-font;
   font-size: 1.5rem;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   text-align: center;
   line-height: 1.88;
-  letter-spacing: normal;
   color: $primary-color;
 }
 /* Parrafo y small */
@@ -32,11 +29,7 @@
   margin: 0.938rem auto;
   font-family: $secondary-font;
   font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: $second-color;
 }
 small {
@@ -60,11 +53,6 @@ small {
   margin-bottom: 0.438rem;
   font-family: $secondary-font;
   font-size: 0.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: $second-color;
 }
 /* Nombre completo */
