@@ -10,6 +10,9 @@
         crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
         rel="stylesheet" />
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+        </style>
         <link rel="stylesheet" href="./assets/css/main-form.css" />
         <title>THE COOL CODERS</title>
     </head>
@@ -39,28 +42,28 @@
         <!-- Contenedor main -->
         <main class="main">
             <!-- Contacto -->
-             <h1 class="contact">
+             <h1 class="form-contact">
     CONTACTO
   </h1>
 
             <!-- Lema -->
-            <div id="go_contact" class="container-p">
+            <div id="go_contact" class="form-container-text">
                 <p>Aquí podrás introducir tu teléfono, correo electrónico y tus dudas o sugerencias,
                     que nosotras lo leeremos para ponernos en contacto lo antes posible.</p>
                 <br
                 /> <small>
-      Todos los campos marcados con <sup class="text-style-1">*</sup> son
+      Todos los campos marcados con <sup class="form-text-style-1">*</sup> son
       obligatorios.
     </small>
 
             </div>
             <!-- Inicio del formulario -->
-            <div class="container-formul">
+            <div class="container-form">
                 <form action="https://formspree.io/xayjwnkl" method="POST">
                     <!-- Primera fila -->
                     <!-- Nombre completo -->
                     <div class="label">
-                        <label for="firstName">Nombre completo <sup class="text-style-1">*</sup>
+                        <label for="firstName">Nombre completo <sup class="form-text-style-1">*</sup>
 
                         </label>
                     </div>
@@ -71,7 +74,7 @@
                         <!-- Email -->
                         <div>
                             <div class="label">
-                                <label for="Email">Email <sup class="text-style-1">
+                                <label for="Email">Email <sup class="form-text-style-1">
                 *
               </sup>
 
@@ -83,7 +86,7 @@
                         <!-- Teléfono -->
                         <div class="Telephone">
                             <div class="label">
-                                <label for="Teléfono">Teléfono <sup class="text-style-1">
+                                <label for="Teléfono">Teléfono <sup class="form-text-style-1">
                 *
               </sup>
 
@@ -95,41 +98,32 @@
                     </div>
                     <!-- Mensaje -->
                     <div class="label">
-                        <label for="Message">Mensaje <sup class="text-style-1">*</sup> 
+                        <label for="Message">Mensaje <sup class="form-text-style-1">*</sup>
+
                         </label>
                     </div>
-                    <input placeholder="¿Qué necesitas?" id="Message" type="text" name="Message"
-                    required />
+                    <textarea placeholder="¿Qué necesitas?" id="Message" type="text" name="Message"
+                    cols="80" rows="8" required></textarea>
                     <!-- Botón -->
-                    <div class="Button-green">
+                    <div class="form-button">
                         <input type="submit" id="Button" value="ENVIAR" />
                     </div>
                 </form>
             </div>
         </main>
-        <footer>
-            <hr class="mark" noshade size="1px" ; />
-            <div class="footer"> <small class="footer__copy">The cool coders © 2020</small>
-                <nav class="footer_nav">
-                    <ul class="footer_nav__item">
-                        <li class="footer_nav__list"> <a class="footer_nav__link" href="./index.html#go_team">Equipo</a>
-                        </li>
-                        <li class="footer_nav__list"> <a class="footer_nav__link" href="./index.html#go_about">Quiénes somos</a
-
-          >
-
-        </li>
-
-        <li class="footer_nav__list">
-
-          <a class="footer_nav__link" href="#go_contact">Contacto</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="footer__logo"> <a href="https://adalab.es/" target="_blank"><img src="./assets/images/logo-adalab.png" alt="Adalab"
-
-      /></a>
-                </div>
+        <footer class="footer">
+            <hr class="footer__mark" noshade size="1px" ; /> <small class="footer__copy">The cool coders © 2020</small>
+            <nav class="footer__nav grid-nav">
+                <ul class="grid-nav__item">
+                    <li class="grid-nav__list"> <a class="grid-nav__link" href="./index.html#go_team">Equipo</a>
+                    </li>
+                    <li class="grid-nav__list"> <a class="grid-nav__link" href="./index.html#go_about">Quiénes somos</a>
+                    </li>
+                    <li class="grid-nav__list"> <a class="grid-nav__link" href="#go_contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__logo"> <a href="https://adalab.es/" target="_blank"><img src="./assets/images/logo-adalab.png" alt="Adalab"/></a>
             </div>
         </footer>
     </body>

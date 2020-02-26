@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body,
 html {
   margin: 0px;
@@ -9,3 +10,17 @@ html {
 @import "core/_header";
 @import "core/_form";
 @import "core/_footer-contact";
+=======
+body,
+html {
+  margin: 0px;
+  top: 0%;
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+@import "core/_variables";
+@import "core/_header";
+@import "core/form";
+@import "core/_contact-footer";
+>>>>>>> 187dbe9357ee5002f2e5144d67ca5cd486054635

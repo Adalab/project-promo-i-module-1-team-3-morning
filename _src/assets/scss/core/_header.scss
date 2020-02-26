@@ -107,10 +107,10 @@ header {
 
   .nav {
     padding-right: 45px;
-  }
-  .nav-menu {
-    width: 321px;
-    background-color: transparent;
+    &-menu {
+      width: 321px;
+      background-color: transparent;
+    }
   }
 
   .hero-image {
@@ -143,9 +143,9 @@ header {
   }
   .nav {
     padding-right: 138px;
-  }
-  .nav-menu {
-    width: 295px;
+    &-menu {
+      width: 295px;
+    }
   }
 
   .hero-image {
@@ -158,13 +158,10 @@ header {
     height: 90px;
     margin-left: 138px;
     margin-right: 488px;
-    padding: 15px 30px;
-    top: 0px;
-    opacity: 0.8;
+
     h2 {
       font-size: 1.5rem;
       line-height: 30px;
-      text-align: start;
       overflow: hidden;
     }
   }
