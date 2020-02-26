@@ -32,37 +32,33 @@
     color: $second-color;
   }
 }
-
 @media all and (min-width: 768px) {
-  .style-box {
+  .style-box-team {
     padding: 45px 45px 30px 45px;
-  }
 
-  .container-equipo {
-    width: 678px;
-  }
+    &-text {
+      width: 678px;
+      opacity: 0.67;
+    }
 
-  .container-texto {
-    color: #099d8d;
-  }
-
-  .container-equipo {
-    opacity: 0.67;
+    &-title {
+      color: $primary-color;
+    }
   }
 }
 
 @media all and (min-width: 1200px) {
-  .style-box {
+  .style-box-team {
     padding-top: 45px;
     padding-bottom: 60px;
-  }
 
-  .container-texto {
-    color: #099d8d;
-  }
+    &-title {
+      color: $primary-color;
+    }
 
-  .container-equipo {
-    opacity: 0.67;
-    padding: 15px 0px 60px 0px;
+    &-text {
+      opacity: 0.67;
+      padding: 15px 0px 60px 0px;
+    }
   }
 }
